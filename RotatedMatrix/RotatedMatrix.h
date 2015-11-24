@@ -1,3 +1,6 @@
+#ifndef __ROTATEDMATRIX_H__
+#define __ROTATEDMATRIX_H__
+
 #include <iostream>
 #include <glm/glm.hpp>
 #include <glm/matrix.hpp>
@@ -24,3 +27,5 @@ public:
 	static float distance(glm::vec3 &vec);
 
 };
+
+#endif
